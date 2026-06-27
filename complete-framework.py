@@ -150,3 +150,19 @@ def main():
 
     print(
         "Characters:",
+        len(encoded)
+    )
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        print(
+            "Execution error:",
+            error
+        )
+
+print("record saved")
+print("process finished")
+```
